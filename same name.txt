@@ -1,0 +1,11 @@
+-new_car_upload.php  Delete
+
+$sqlQuery = "SELECT name FROM stock";
+    $resultset = mysqli_query($conn, $sqlQuery) or die("database error:". mysqli_error($conn));
+    while($row = $resultset->fetch_assoc()) {
+        if($row['name'] == $carname) {
+            echo "<script>alert('The car have already uploaded or used the same car name'); window.location.href='../view/new_car.php'</script>";
+            die();
+        }
+    }
+

@@ -1,0 +1,31 @@
+.sold-img {
+    width: 150px!important;
+    position: absolute;
+}
+
+/* User Profile Page */
+.modal-backdrop {
+    position: unset;
+}
+.modal-form {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.m-label {
+    margin: auto;
+}
+.m-btns {
+    display: flex;
+    justify-content: space-around;
+    margin: 15px 0px;
+}
+.error {
+    margin: auto;
+    color: limegreen;
+}
+.pw-alert {
+    margin: 15px;
+    color: limegreen;
+    font-size: 18px;
+}
